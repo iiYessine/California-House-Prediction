@@ -40,10 +40,26 @@ The dataset used is the **California Housing dataset**, which contains **20,640 
 ---
 
 ## Exploratory Data Analysis
-- Histograms and heatmaps were used to analyze the distribution and correlation of features.  
-- Observations:  
-  - `median_income` is highly correlated with `median_house_value`.  
-  - Proximity to the ocean positively affects house prices.  
+
+### Distribution of House Prices
+We analyze the distribution of house prices using a histogram to better understand the data spread and detect skewness.
+
+<img src="images/histogramme - Copie.png" alt="House Prices Histogram" width="600">
+
+---
+
+### Correlation Matrix
+A correlation matrix is used to identify relationships between numerical features and the target variable.
+
+<img src="images/correlation tab - Copie.png" alt="Correlation Matrix" width="600">
+
+---
+
+### Scatter Plot Analysis
+Scatter plots help visualize relationships between house prices and key features such as location and population.
+
+<img src="images/coast - Copie.png" alt="Scatter Plot of House Prices" width="600">
+
 
 ---
 
@@ -61,4 +77,7 @@ The dataset used is the **California Housing dataset**, which contains **20,640 
 > Note: Further tuning or more complex ensemble methods could improve accuracy.  
 
 ---
+## Conclusion
+
+This project demonstrates a full ML pipeline: from preprocessing raw data to model evaluation and tuning. Random Forest outperformed Linear Regression due to its ability to capture nonlinear relationships.
 
